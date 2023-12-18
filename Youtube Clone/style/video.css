@@ -74,3 +74,8 @@ body {
   bottom: 10px;
   right: 8px;
 }
+
+.video-title-link {
+  text-decoration: none;
+  color: black;
+}
