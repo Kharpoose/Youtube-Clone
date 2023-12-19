@@ -1,5 +1,4 @@
 p {
-  font-family: Roboto, Ariral;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -63,13 +62,9 @@ body {
   background-color: black;
   color: white;
   position: absolute;
-  font-family: Roboto, Arial;
   font-size: 12px;
   font-weight: 500;
-  padding-left: 3px;
-  padding-right: 3px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding: 4px 3px;
   border-radius: 2px;
   bottom: 10px;
   right: 8px;
@@ -79,3 +74,53 @@ body {
   text-decoration: none;
   color: black;
 }
+
+
+@media (max-width: 1350px) {
+  .video_gird {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1050px) {
+  .video_gird {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .video_gird {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 2500px) {
+  .video_gird {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .video_title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+.video-author,
+.video-stats {
+  font-size: 16px;
+}
+}
+
+@media (min-width: 2900px) {
+  .video_gird {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .video_title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+.video-author,
+.video-stats {
+  font-size: 16px;
+}
+}
+
